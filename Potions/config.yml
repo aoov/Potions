@@ -1,0 +1,8 @@
+Potions:
+  Messages:
+    HasteOn: '&6&lHaste is &aenabled!'
+    HasteOff: '&6&lHaste is &4disabled!'
+  Levels:
+    Haste: 1
+  Settings:
+    HasteCooldown: 30

@@ -1,0 +1,12 @@
+#Copyright 2018, Aaron Ng, All rights reserved.
+main: me.aov.Main
+name: Potions
+version: 1.0
+author: Aov
+description: Toggle on and off potion effects!
+commands:
+  haste:
+    description: Toggles Haste
+    usage: /haste
+    permission: pot.haste
+    permission-message: You don't have permission.
