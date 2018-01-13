@@ -1,5 +1,5 @@
 #Copyright 2018, Aaron Ng, All rights reserved.
-main: me.aov.Main
+main: me.aov.PotionsMain
 name: Potions
 version: 1.0
 author: Aov
@@ -9,4 +9,14 @@ commands:
     description: Toggles Haste
     usage: /haste
     permission: pot.haste
+    permission-message: You don't have permission.
+  speedp:
+    description: Toggles Speed
+    usage: /speed
+    permission: pot.speed
+    permission-message: You don't have permission.
+  nv:
+    description: Toggles Night Vision
+    usage: /speed
+    permission: pot.nv
     permission-message: You don't have permission.

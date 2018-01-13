@@ -2,7 +2,12 @@ Potions:
   Messages:
     HasteOn: '&6&lHaste is &aenabled!'
     HasteOff: '&6&lHaste is &4disabled!'
+    SpeedOn: '&b&lSpeed is &aenabled!'
+    SpeedOff: '&b&lSpeed is &4disabled!'
+    NVOn: '&5&lNight Vision is &aenabled!'
+    NVOff: '&5&lNight Vision is &4disabled!'
+#Default Value: 0 | 0 = Level 1
   Levels:
-    Haste: 1
-  Settings:
-    HasteCooldown: 30
+    Haste: 0
+    Speed: 0
+    NV: 0
