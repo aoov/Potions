@@ -17,6 +17,41 @@ commands:
     permission-message: You don't have permission.
   nv:
     description: Toggles Night Vision
-    usage: /speed
+    usage: /nv
     permission: pot.nv
     permission-message: You don't have permission.
+    aliases: [nightvision]
+  glow:
+    description: Toggles Glow
+    usage: /glow
+    permission: pot.glow
+    permission-message: You don't have permission.
+  strength:
+    description: Toggles Strength
+    usage: /strength
+    permission: pot.strength
+    permission-message: You don't have permission.
+    aliases: [str, st]
+  milk:
+    description: Removes All Potion Effects
+    usage: /milk
+    permission: pot.milk
+    permission-message: You don't have permission.
+  regeneration:
+    description: Toggles Regeneration
+    usage: /regeneration
+    permission: pot.regeneration
+    permission-message: You don't have permission.
+    aliases: [regen]
+  superpotion:
+    description: Toggles Super Potion
+    usage: /superpotion
+    permission: pot.superpotion
+    permission-message: You don't have permission.
+    aliases: [sp, superpot]
+  luck:
+    description: Toggles Luck
+    usage: /luck
+    permission: pot.luck
+    permission-message: You don't have permission.
+    aliases: [sp, superpot]

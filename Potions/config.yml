@@ -1,13 +1,28 @@
 Potions:
   Messages:
+    Milk: '&f&lYou &lDrank &lMilk!'
     HasteOn: '&6&lHaste is &aenabled!'
     HasteOff: '&6&lHaste is &4disabled!'
     SpeedOn: '&b&lSpeed is &aenabled!'
     SpeedOff: '&b&lSpeed is &4disabled!'
     NVOn: '&5&lNight Vision is &aenabled!'
     NVOff: '&5&lNight Vision is &4disabled!'
+    GlowOn: '&e&lGlow is &aenabled!'
+    GlowOff: '&e&lGlow is &4disabled!'
+    StrengthOn: '&c&lStrength is &aenabled!'
+    StrengthOff: '&c&lStrength is &4disabled!'
+    RegenerationOn: '&d&lRegeneration is &aenabled!'
+    RegenerationOff: '&d&lRegneration is &4disabled!'
+    LuckOn: '&a&lLuck is &aenabled!'
+    LuckOff: '&a&lLuck is &4disabled!'
+    SuperPotionOn: '&cS&6u&ep&ae&br &9P&5o&ct&6i&eo&an is &aenabled!'
 #Default Value: 0 | 0 = Level 1
   Levels:
     Haste: 0
     Speed: 0
     NV: 0
+    Glow: 0
+    Strength: 0 
+    Regeneration: 0
+    SuperPotion: 0
+    Luck: 0
