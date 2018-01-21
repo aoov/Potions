@@ -1,4 +1,7 @@
-Potions:
+Potions: #By: Aov
+  Version: 2.0
+  Cooldown: 5 #Set to 0 for no cooldown
+  Prefix: '&f[&9&o&lPotions&r&f]&r '
   Messages:
     Milk: '&f&lYou &lDrank &lMilk!'
     HasteOn: '&6&lHaste is &aenabled!'
@@ -16,13 +19,12 @@ Potions:
     LuckOn: '&a&lLuck is &aenabled!'
     LuckOff: '&a&lLuck is &4disabled!'
     SuperPotionOn: '&cS&6u&ep&ae&br &9P&5o&ct&6i&eo&an is &aenabled!'
-#Default Value: 0 | 0 = Level 1
-  Levels:
-    Haste: 0
-    Speed: 0
-    NV: 0
-    Glow: 0
-    Strength: 0 
-    Regeneration: 0
-    SuperPotion: 0
-    Luck: 0
+  Levels: #Sets the default level & alows use of lower levels
+    Haste: 1
+    Speed: 1
+    NV: 1
+    Glow: 1
+    Strength: 1 
+    Regeneration: 1
+    SuperPotion: 1
+    Luck: 1

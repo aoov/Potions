@@ -3,6 +3,6 @@
   <property name="plugins" location="C:\Users\xryda\Desktop\New folder\plugins"  />
 
   <target name="CreateJar" description="Create Jar file">
-       <jar jarfile="${plugins}/Potions v1.1.jar" basedir="" includes="*.yml, **/*.*"></jar>
+       <jar jarfile="${plugins}/Potions v1.2.jar" basedir="" includes="*.yml, **/*.*"></jar>
   </target>
 </project>

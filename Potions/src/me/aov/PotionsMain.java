@@ -10,6 +10,7 @@ import me.aov.commands.Haste;
 import me.aov.commands.Luck;
 import me.aov.commands.Milk;
 import me.aov.commands.NightVision;
+import me.aov.commands.Potions;
 import me.aov.commands.Regeneration;
 import me.aov.commands.Speed;
 import me.aov.commands.Strength;
@@ -17,7 +18,7 @@ import me.aov.commands.SuperPotion;
 
 public class PotionsMain extends JavaPlugin {
 	ConsoleCommandSender console = getServer().getConsoleSender();
-
+	private final String prefix = ChatColor.translateAlternateColorCodes('&' ,getConfig().getString("Potions.Prefix"));
 	@Override
 	public void onEnable() {
 		console.sendMessage("[Potions]" + ChatColor.GREEN + " Potions Enabled!");
@@ -31,7 +32,7 @@ public class PotionsMain extends JavaPlugin {
 		this.getCommand("superpotion").setExecutor(new SuperPotion(this));
 		this.getCommand("milk").setExecutor(new Milk(this));
 		this.getCommand("luck").setExecutor(new Luck(this));
-	
+		this.getCommand("potions").setExecutor(new Potions(this));
 	}
 
 	@Override
@@ -41,8 +42,17 @@ public class PotionsMain extends JavaPlugin {
 
 	private void registerConfig() {
 		getConfig().options().copyDefaults(true);
-		saveConfig();
+		this.saveDefaultConfig();
 		getLogger();
 	}
+	
+	public void reload() {
+		reloadConfig();
+		saveConfig();
 
+	}
+
+	public String getPrefix() {
+		return prefix;
+	}
 }
