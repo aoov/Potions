@@ -19,6 +19,12 @@ import me.aov.commands.SuperPotion;
 public class PotionsMain extends JavaPlugin {
 	ConsoleCommandSender console = getServer().getConsoleSender();
 	private final String prefix = ChatColor.translateAlternateColorCodes('&' ,getConfig().getString("Potions.Prefix"));
+	
+	
+	private final PotionsMain main = this;
+	
+	
+	
 	@Override
 	public void onEnable() {
 		console.sendMessage("[Potions]" + ChatColor.GREEN + " Potions Enabled!");
@@ -33,6 +39,7 @@ public class PotionsMain extends JavaPlugin {
 		this.getCommand("milk").setExecutor(new Milk(this));
 		this.getCommand("luck").setExecutor(new Luck(this));
 		this.getCommand("potions").setExecutor(new Potions(this));
+		getServer().getPluginManager().registerEvents(new PermListener(this), this);
 	}
 
 	@Override
@@ -52,6 +59,11 @@ public class PotionsMain extends JavaPlugin {
 
 	}
 
+	
+	public  PotionsMain getMain() {
+		return this.main;
+	}
+	
 	public String getPrefix() {
 		return prefix;
 	}

@@ -46,6 +46,10 @@ public class Potions implements CommandExecutor {
 						+ LP
 						+ "- Displays This!\n"
 						+ Green
+						+ "/Potions Reload"
+						+ LP
+						+ "- Reloads Config!"
+						+ Green
 						+ "/Milk "
 						+ LP
 						+ "- Removes All Potion Effects\n"
@@ -67,14 +71,14 @@ public class Potions implements CommandExecutor {
 						+ " \n"
 						+ ChatColor.RESET
 						+ LP
-						+ "Haste\nSpeed\nLuck\nStrength or Str or St\nNight Vision or NV\nSpeed\nRegeneration or Regen\nGlow"
+						+ "Haste\nSpeed\nLuck\nStrength or Str or St\nNight Vision or NV\nRegeneration or Regen\nGlow"
 						);
 				p.sendMessage(ChatColor.GRAY + "<-------------------->");
 				return true;
 			}
 			else {
 				p.sendMessage(ChatColor.GRAY + "<-------------------->\n" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD
-						+ "Potions" + ChatColor.GREEN + " v2.0 by Aov\n" + ChatColor.GRAY + "Use " + ChatColor.YELLOW
+						+ "Potions" + ChatColor.GREEN + " v2.1 by Aov\n" + ChatColor.GRAY + "Use " + ChatColor.YELLOW
 						+ "\"/potions help\" " + ChatColor.GRAY + " for commands" + ChatColor.GRAY
 						+ "\n<-------------------->");
 				return true;

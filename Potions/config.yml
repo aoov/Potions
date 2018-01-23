@@ -1,6 +1,7 @@
 Potions: #By: Aov
-  Version: 2.0
+  Version: 2.1
   Cooldown: 5 #Set to 0 for no cooldown
+  PermPotions: true
   Prefix: '&f[&9&o&lPotions&r&f]&r '
   Messages:
     Milk: '&f&lYou &lDrank &lMilk!'
