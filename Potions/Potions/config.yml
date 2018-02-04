@@ -1,0 +1,40 @@
+Potions: #By: Aov
+  Version: 2.3
+  Cooldown: 5 #Set to 0 for no cooldown
+  PermPotions: true
+  Prefix: '&f[&9&o&lPotions&r&f]&r '
+  Messages:
+    Milk: '&f&lYou &lDrank &lMilk!'
+    HasteOn: '&6&lHaste is &aenabled!'
+    HasteOff: '&6&lHaste is &4disabled!'
+    SpeedOn: '&b&lSpeed is &aenabled!'
+    SpeedOff: '&b&lSpeed is &4disabled!'
+    NVOn: '&5&lNight Vision is &aenabled!'
+    NVOff: '&5&lNight Vision is &4disabled!'
+    GlowOn: '&e&lGlow is &aenabled!'
+    GlowOff: '&e&lGlow is &4disabled!'
+    StrengthOn: '&c&lStrength is &aenabled!'
+    StrengthOff: '&c&lStrength is &4disabled!'
+    RegenerationOn: '&d&lRegeneration is &aenabled!'
+    RegenerationOff: '&d&lRegneration is &4disabled!'
+    LuckOn: '&a&lLuck is &aenabled!'
+    LuckOff: '&a&lLuck is &4disabled!'
+    SlowOn: '&7&lSlow is &aenabled!'
+    SlowOff: '&7&lSlow is &4disabled!'
+    BlindnessOn: '&8&lBlindness is &aenabled!'
+    BlindnessOff: '&8&lBlindness is &4disabled!'
+    ConfusionOn: '&8&lConfusion is &aenabled!'
+    ConfusionOff: '&8&lConfusion is &4disabled!'
+    SuperPotionOn: '&cS&6u&ep&ae&br &9P&5o&ct&6i&eo&an is &aenabled!'
+  Levels: #Sets the default level & alows use of lower levels
+    Haste: 1
+    Speed: 1
+    Slow: 1
+    Confusion: 1
+    Blindness: 1
+    NV: 1
+    Glow: 1
+    Strength: 1 
+    Regeneration: 1
+    SuperPotion: 1
+    Luck: 1

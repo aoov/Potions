@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<project name="Potions" default="CreateJar">
+  <property name="plugins" location="C:\Users\xryda\Desktop\New folder\plugins"  />
+
+  <target name="CreateJar" description="Create Jar file">
+       <jar jarfile="${plugins}/Potions v2.0.jar" basedir="" includes="*.yml, **/*.*"></jar>
+  </target>
+</project>
